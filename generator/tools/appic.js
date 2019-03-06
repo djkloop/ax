@@ -11,7 +11,8 @@ function renderFiles(api, opts) {
     const fs = require('fs');
     const files = {
         './src/App.vue': '../templates/default/src/App.vue',
-        './src/views/manager/tool/app/index.vue': '../templates/default/src/App.vue'
+        './src/views/manager/tool/app/index.vue': '../templates/default/src/App.vue',
+        './src/views': '../templates/default/src/views'
     }
     api.render(files, opts);
 }
