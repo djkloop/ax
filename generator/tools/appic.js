@@ -8,7 +8,11 @@ function addDependencies(api) {
 }
 
 function renderFiles(api, opts) {
-    api.render('../templates');
+    const fs = require('fs');
+    const files = {
+        './src/App.vue': '../templates/default/src/App.vue'
+    }
+    api.render(files, opts);
 }
 
 module.exports = {
