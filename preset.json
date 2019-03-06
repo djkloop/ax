@@ -1,3 +1,8 @@
 {
-    "useConfigFiles": true
+    "useConfigFiles": true,
+    "config": {
+        "vue": {
+            "basuUrl": "/"
+        }
+    }
 }
