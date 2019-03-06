@@ -10,6 +10,12 @@ module.exports = [{
         default: true
     },
     {
+        name: "vue-router",
+        type: "confirm",
+        message: "是否需要使用vue-router",
+        default: true
+    },
+    {
         name: "iView",
         type: "confirm",
         message: "是否需要使用iView",

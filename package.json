@@ -10,5 +10,8 @@
     "vue-cli/appic-cms-template"
   ],
   "author": "djkloop",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^3.2.0"
+  }
 }
