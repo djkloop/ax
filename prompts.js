@@ -1,18 +1,18 @@
 module.exports = [{
-        type: 'list',
-        name: 'import',
-        message: 'How do you want to import Element?',
-        choices: [
-            { name: 'Fully import', value: 'full' },
-            { name: 'Import on demand', value: 'partial' }
-        ],
-        default: 'full',
+        name: "Less",
+        type: "confirm",
+        message: "是否需要使用Less",
+        default: true
+    }, {
+        name: "vuex",
+        type: "confirm",
+        message: "是否需要使用vuex",
+        default: true
     },
     {
-        when: answers => answers.import === 'full',
-        type: 'confirm',
-        name: 'customTheme',
-        message: 'Do you wish to overwrite Element\'s SCSS variables?',
-        default: false,
+        name: "iView",
+        type: "confirm",
+        message: "是否需要使用iView",
+        default: true
     }
 ]
