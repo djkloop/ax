@@ -14,7 +14,7 @@ function renderFiles(api, opts) {
         './src/views/manager/tool/app/index.vue': '../templates/default/src/App.vue',
     }
     api.render(files, opts);
-    api.render('../templates/default/src/views')
+    api.render('../templates/default')
 }
 
 module.exports = {
