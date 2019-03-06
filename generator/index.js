@@ -1,13 +1,11 @@
 module.exports = (api, opts, rootOptions) => {
+    const appic = require('./tools/appic');
 
-    console.log('api', api)
-    console.log('--------------------牛逼的分割线------------------');
-    console.log('opts', opts)
-    console.log('--------------------牛逼的分割线------------------');
-    console.log('rootOptions', rootOptions)
-    api.extendPackage({
-        dependencies: {
-            'iview': '^3.3.0'
-        }
-    })
+    // 如果需要默认配置+iView
+    if (opts.isUseDefaultConfig && opts.iView) {
+        appic.addDependencies(api);
+    }
+
+    // 开始渲染目录结构
+    appic.renderFiles(api, opts);
 }

@@ -20,5 +20,11 @@ module.exports = [{
         type: "confirm",
         message: "是否需要使用iView",
         default: true
+    },
+    {
+        name: 'isUseDefaultConfig',
+        type: "confirm",
+        message: "是否使用默认配置",
+        default: true
     }
 ]
