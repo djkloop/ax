@@ -1,17 +1,15 @@
 {
-  "name": "@djkloop/appic-cms-cli",
-  "version": "1.0.0",
-  "description": "appic-cms-template",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "vue-cli/appic-cms-template"
-  ],
-  "author": "djkloop",
-  "license": "MIT",
-  "dependencies": {
-    "ora": "^3.2.0"
-  }
+    "name": "@djkloop/appic-cms-cli",
+    "version": "1.0.0",
+    "description": "appic-cms-template",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue-cli/appic-cms-template"
+    ],
+    "author": "djkloop",
+    "license": "MIT",
+    "dependencies": {}
 }
