@@ -10,7 +10,8 @@ function addDependencies(api) {
 function renderFiles(api, opts) {
     const fs = require('fs');
     const files = {
-        './src/App.vue': '../templates/default/src/App.vue'
+        './src/App.vue': '../templates/default/src/App.vue',
+        './src/views/manager/tool/app/index.vue': '../templates/default/src/App.vue'
     }
     api.render(files, opts);
 }
